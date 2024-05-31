@@ -1,0 +1,50 @@
+.container {
+    width              : 1920px;
+    height             : 100px;
+    position           : fixed;
+    top                : 0;
+    left               : 0;
+    z-index            : 998;
+    display            : flex;
+    align-items        : center;
+    justify-content    : center;
+    color              : #fff;
+    /* background-color: #6c64de; */
+}
+
+.slogan {
+    position               : absolute;
+    left                   : 24px;
+    top                    : 40px;
+    font-size              : 24px;
+    font-weight            : 500;
+    background: linear-gradient(to right, #6c64de, #3c4d87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.title {
+    position               : absolute;
+    top                    : 24px;
+    left                   : 42%;
+    font-size              : 36px;
+    font-weight            : 600;
+    background             : linear-gradient(to bottom, #6c64de, #3c4d87);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dateTime {
+    position   : absolute;
+    right      : 80px;
+    top        : 40px;
+    font-size  : 24px;
+    font-weight: 500;
+}
+
+.fullScreen{
+    position   : absolute;
+    right      : 24px;
+    top        : 36px;
+}

@@ -1,0 +1,62 @@
+.container {
+    width   : 420px;
+    position: fixed;
+    bottom  : 0;
+    top     : 124px;
+    right   : 24px;
+    z-index : 998;
+
+}
+
+.expCarrier {
+    width : 420px;
+    height: 350px;
+}
+
+.users {
+    width     : 420px;
+    height    : 260px;
+    margin-top: 24px;
+}
+
+.expMode {
+    width     : 420px;
+    height    : 300px;
+    margin-top: 24px;
+}
+
+.expCarrierBoxHead,
+.usersBoxHead,
+.expModeBoxHead {
+    display    : flex;
+    align-items: center;
+    color      : #fff;
+    width      : 100%;
+    height     : 50px;
+}
+
+.expCarrierBoxHeadTitle,
+.usersBoxHeadTitle,
+.expModeBoxHeadTitle {
+    margin-left: 8px;
+}
+
+
+.expCarrierBox,
+.usersBox,
+.expModeBox {
+    padding   : 16px 24px;
+    box-sizing: border-box;
+}
+
+.expCarrierBoxCtx {
+    height: 280px;
+}
+
+.usersBoxCtx {
+    height: 160px;
+}
+
+.expModeBoxCtx {
+    height: 200px;
+}

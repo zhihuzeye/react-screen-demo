@@ -1,0 +1,9 @@
+.scaleContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(3, 22, 42, 1); */
+    overflow-y: hidden;
+}
